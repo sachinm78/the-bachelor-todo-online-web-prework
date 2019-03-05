@@ -51,5 +51,5 @@ end
 def get_average_age_for_season(data, season)
   age = 0 
   count = 0 
-    data[season]
+    data[season].each do 
 end
